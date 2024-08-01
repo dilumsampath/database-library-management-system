@@ -43,7 +43,7 @@ The database design ensures:
    git clone https://github.com/dilumsampath/database-library-management-system.git
 
 2. Navigate to the project directory:
-
+   ```sh
    cd database-library-management-system
 
 3. Import the SQL script into your database management system to create the database and tables.
