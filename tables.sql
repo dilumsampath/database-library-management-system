@@ -6,7 +6,8 @@ CREATE TABLE IF NOT EXISTS authors(
     author_id INT NOT NULL AUTO_INCREMENT,
     name VARCHAR(100) NOT NULL,
     description VARCHAR(512) DEFAULT NULL,
-    PRIMARY KEY (author_id)
+    PRIMARY KEY (author_id),
+    UNIQUE KEY (name)
 );
 
 CREATE TABLE IF NOT EXISTS books (

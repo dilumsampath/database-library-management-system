@@ -10,7 +10,7 @@ INSERT INTO authors (name, description) VALUES
 ('Ernest Hemingway', 'American novelist, short-story writer, and journalist. Known for works like "The Old Man and the Sea".'),
 ('Mark Twain', 'American writer, humorist, entrepreneur, publisher, and lecturer. Known for "The Adventures of Tom Sawyer" and "Adventures of Huckleberry Finn".'),
 ('F. Scott Fitzgerald', 'American novelist and short story writer, widely known for his novel "The Great Gatsby".')
-ON DUPLICATE KEY UPDATE name = VALUES(name), description = VALUES(description)
+-- ON DUPLICATE KEY UPDATE name = VALUES(name), description = VALUES(description)
 ;
 
 
