@@ -16,6 +16,7 @@ The Library Management System is a database project designed to manage the recor
 ## ERD (Entity-Relationship Diagram)
 
 ![ERD](Library_Management_System.png)
+![Normalization](Table_Normalization.png)
 
 ## Description
 
